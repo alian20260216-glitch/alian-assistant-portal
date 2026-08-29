@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#02050a" />
+    <meta name="description" content="NOVA — 探索下一個前沿，從地球走向星際。" />
+    <meta property="og:title" content="NOVA｜探索下一個前沿" />
+    <meta property="og:description" content="一座連結軌道任務、深空探索與未來科技的入口網站。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/hero-space.png" />
+    <title>NOVA｜探索下一個前沿</title>
+    <link rel="preload" href="assets/hero-space.png" as="image" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">前往主要內容</a>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="NOVA 首頁">
+        <svg viewBox="0 0 46 46" aria-hidden="true"><path d="M23 3 42 37 23 29 4 37 23 3Zm0 10-9 17 9-4 9 4-9-17Z"/></svg>
+        <span>NOVA</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-menu>
+        <span></span><span></span><span></span><span class="sr-only">開啟選單</span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="主要選單" data-nav>
+        <a href="#missions">任務</a>
+        <a href="#technology">科技</a>
+        <a href="#vision">願景</a>
+        <a href="#contact">聯繫</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-shade"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow"><span></span> BEYOND THE HORIZON</p>
+          <h1 id="hero-title">探索<br />下一個前沿</h1>
+          <p class="hero-copy">從地球軌道到未知星際，我們以精密工程與無限想像，重新定義人類能抵達的距離。</p>
+          <a class="outline-button" href="#missions"><span>開始探索</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="mission-status" aria-label="即將進行的任務">
+          <span class="status-dot"></span>
+          <div><small>NEXT MISSION</small><strong>ORBITAL DAWN · T–18:42:09</strong></div>
+        </div>
+        <a class="scroll-cue" href="#missions" aria-label="向下捲動"><span>SCROLL</span><i></i></a>
+      </section>
+
+      <section class="missions section" id="missions">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span></span> ACTIVE PROGRAMS</p>
+          <h2>任務，不只抵達</h2>
+          <p>每一次升空，都讓太空更接近每一個人。</p>
+        </div>
+        <div class="mission-grid">
+          <article class="mission-card reveal"><span class="card-no">01</span><div class="orbit-icon" aria-hidden="true">◌</div><small>LOW EARTH ORBIT</small><h3>近地軌道</h3><p>打造高頻、低成本的軌道運輸網路，讓科學與通訊任務更快速進入太空。</p><a href="#contact">探索計畫 <span>→</span></a></article>
+          <article class="mission-card reveal"><span class="card-no">02</span><div class="orbit-icon" aria-hidden="true">◒</div><small>LUNAR FRONTIER</small><h3>月球前線</h3><p>建立可持續的月面探索能力，為長程深空任務奠定下一座前哨基地。</p><a href="#contact">探索計畫 <span>→</span></a></article>
+          <article class="mission-card reveal"><span class="card-no">03</span><div class="orbit-icon" aria-hidden="true">✦</div><small>DEEP SPACE</small><h3>深空探索</h3><p>跨越已知邊界，以自主導航與新世代推進技術，前往更遙遠的世界。</p><a href="#contact">探索計畫 <span>→</span></a></article>
+        </div>
+      </section>
+
+      <section class="technology section" id="technology">
+        <div class="tech-copy reveal"><p class="eyebrow"><span></span> ENGINEERED FOR TOMORROW</p><h2>為極限而生</h2><p>從可重複使用架構、即時飛控到自主任務系統，每個細節都為更可靠、更高效的太空旅程而設計。</p><div class="stats"><div><strong>99.8<em>%</em></strong><span>任務可靠度</span></div><div><strong>12<em>×</em></strong><span>重複使用週期</span></div><div><strong>24<em>/7</em></strong><span>全球任務支援</span></div></div></div>
+        <div class="tech-visual reveal" aria-hidden="true"><div class="rings"><i></i><i></i><i></i><b></b></div><span>VECTOR / 07</span></div>
+      </section>
+
+      <section class="vision" id="vision">
+        <div class="vision-content reveal"><p class="eyebrow"><span></span> OUR NORTH STAR</p><blockquote>「未來不是等待被發現，<br />而是由我們共同抵達。」</blockquote><p>讓下一代仰望星空時，看見的不只是遙不可及的光，而是一條真正能夠出發的路。</p></div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <p class="eyebrow reveal"><span></span> JOIN THE MISSION</p><h2 class="reveal">下一段旅程<br />從此刻開始</h2><a class="outline-button reveal" href="mailto:hello@example.com"><span>與我們聯繫</span><span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer><a class="brand" href="#top"><span>NOVA</span></a><p>© <span data-year></span> NOVA EXPLORATION</p><div><a href="#">INSTAGRAM</a><a href="#">X / TWITTER</a><a href="#">LINKEDIN</a></div></footer>
+  </body>
+</html>
