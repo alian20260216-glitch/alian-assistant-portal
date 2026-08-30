@@ -23,6 +23,17 @@
     .subtitle { max-width:720px; margin:18px 0 0; color:var(--muted); font-size:1.05rem; line-height:1.75; }
     .notice { display:inline-flex; gap:9px; align-items:center; margin-top:18px; padding:10px 14px;
       border:1px solid #e5c859; border-radius:999px; background:#fff5c9; font-size:.9rem; font-weight:700; }
+    .price-panel { display:grid; grid-template-columns:minmax(210px,1.2fr) 2fr; gap:22px;
+      align-items:center; margin:28px 0 14px; padding:24px; border:1px solid rgba(37,52,47,.1);
+      border-radius:26px; background:var(--paper); box-shadow:var(--shadow); }
+    .price-main small,.price-meta small { display:block; color:var(--muted); font-weight:700; }
+    .price-main strong { display:block; margin:4px 0 8px; font-size:clamp(2.2rem,6vw,4rem);
+      font-variant-numeric:tabular-nums; letter-spacing:-.04em; }
+    .price-change { display:inline-block; padding:7px 11px; border-radius:999px; font-weight:900; }
+    .price-meta { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+    .price-meta div { padding:12px; border-radius:16px; background:var(--cream); }
+    .price-meta strong { display:block; margin-top:5px; font-variant-numeric:tabular-nums; }
+    .price-source { grid-column:1/-1; color:var(--muted); font-size:.78rem; line-height:1.6; }
     .cards { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:28px 0 20px; }
     .card { padding:18px; border:1px solid rgba(37,52,47,.1); border-radius:20px;
       background:rgba(255,253,247,.82); box-shadow:0 8px 24px rgba(62,76,68,.07); }
@@ -61,6 +72,7 @@
     footer { display:flex; justify-content:space-between; gap:24px; margin-top:18px;
       color:var(--muted); font-size:.8rem; line-height:1.6; }
     @media (max-width:760px) { main { width:min(100% - 20px,1180px); padding-top:28px; }
+      .price-panel { grid-template-columns:1fr; } .price-meta { grid-template-columns:1fr 1fr; }
       .cards { grid-template-columns:1fr 1fr; } .toolbar { align-items:stretch; flex-direction:column; }
       .search { width:100%; } footer { flex-direction:column; } }
   </style>
@@ -73,6 +85,20 @@
       <p class="subtitle">把成分與權重攤開來看，資訊清楚、氣氛輕鬆。今天沒有硬梆梆的試算表，只有一張好讀的清單。</p>
       <div class="notice">☀️ 報告日期是 2026-08-30；來源最近資料日為 2026-08-28，並非今日更新。</div>
     </header>
+    <section class="price-panel" aria-label="ETF 市場價格">
+      <div class="price-main">
+        <small>成交／收盤價 · TWD</small>
+        <strong>10.36</strong>
+        <span class="price-change up">+0.11</span>
+      </div>
+      <div class="price-meta">
+        <div><small>開盤</small><strong>10.32</strong></div>
+        <div><small>最高</small><strong>10.44</strong></div>
+        <div><small>最低</small><strong>10.32</strong></div>
+        <div><small>前收盤</small><strong>10.25</strong></div>
+        <span class="price-source">最近交易日 2026-08-28，非今日行情｜來源：臺灣證券交易所基本市況報導網站｜來源時間：2026-08-28T06:30:00+00:00</span>
+      </div>
+    </section>
     <section class="cards" aria-label="資料摘要">
       <div class="card"><small>ETF</small><strong>00403A</strong></div>
       <div class="card"><small>成分筆數</small><strong>50 檔</strong></div>
@@ -394,7 +420,7 @@
       </div>
     </section>
     <footer>
-      <span>資料來源：統一投信｜擷取時間：2026-08-30T04:39:50.120852+00:00（UTC）</span>
+      <span>資料來源：統一投信｜擷取時間：2026-08-30T04:43:22.889388+00:00（UTC）</span>
       <span>權重變化比較基準：目前資料庫尚無更早紀錄</span>
     </footer>
   </main>
