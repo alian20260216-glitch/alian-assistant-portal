@@ -1,5 +1,5 @@
 {
-  "latest_report_date": "2026-08-29",
+  "latest_report_date": "2026-08-30",
   "timezone": "Asia/Taipei",
   "etfs": [
     "00403A",
@@ -8,6 +8,7 @@
     "00988A"
   ],
   "archive_dates": [
+    "2026-08-30",
     "2026-08-29"
   ]
 }
