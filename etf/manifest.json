@@ -1,7 +1,7 @@
 {
-  "latest_report_date": "2026-08-30",
+  "latest_report_date": "2026-08-31",
   "timezone": "Asia/Taipei",
-  "price_trade_date": "2026-08-28",
+  "price_trade_date": "2026-08-31",
   "etfs": [
     "0050",
     "00403A",
@@ -10,6 +10,7 @@
     "00988A"
   ],
   "archive_dates": [
+    "2026-08-31",
     "2026-08-30",
     "2026-08-29"
   ]
