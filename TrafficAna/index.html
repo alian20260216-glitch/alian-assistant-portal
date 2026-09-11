@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Google Routes、TomTom 與 TDX 最近七天交通資料快照">
+  <title>TrafficAna｜最近七天交通資料</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <div>
+          <p class="eyebrow">TRAFFICANA · 7-DAY SNAPSHOT</p>
+          <h1>交通七日分析</h1>
+        </div>
+      </div>
+      <div class="status-cluster">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span id="systemStatus">正在載入快照</span>
+        <span class="divider" aria-hidden="true"></span>
+        <time id="clock">--:--:--</time>
+      </div>
+    </header>
+
+    <main>
+      <section class="control-deck" aria-label="資料篩選">
+        <div class="deck-heading">
+          <div>
+            <p class="section-kicker">最近七天</p>
+            <h2 id="sourceTitle">Google Routes</h2>
+          </div>
+          <p id="lastUpdated" class="last-updated">資料快照：讀取中</p>
+        </div>
+        <div id="sourceTabs" class="source-tabs" role="tablist" aria-label="資料來源"></div>
+        <div class="filters">
+          <label>
+            <span>監測項目</span>
+            <select id="entitySelect" aria-label="監測項目"><option value="">全部項目</option></select>
+          </label>
+          <div class="snapshot-window" aria-label="資料範圍">
+            <span>資料範圍</span>
+            <strong id="windowLabel">最近七天</strong>
+          </div>
+          <button id="refreshButton" class="refresh-button" type="button">
+            <span aria-hidden="true">↻</span> 重新載入
+          </button>
+        </div>
+      </section>
+
+      <section id="metricGrid" class="metric-grid" aria-label="關鍵指標">
+        <article class="metric-card"><p>最新行車時間</p><strong>讀取中</strong><small>最近一筆完整路線</small></article>
+        <article class="metric-card"><p>平均行車時間</p><strong>—</strong><small>目前篩選範圍</small></article>
+        <article class="metric-card"><p>平均交通差值</p><strong>—</strong><small>相較基準時間</small></article>
+        <article class="metric-card"><p>觀測筆數</p><strong>—</strong><small>資料庫紀錄</small></article>
+      </section>
+
+      <section class="workspace-grid">
+        <article class="panel chart-panel">
+          <div class="panel-heading">
+            <div><p class="section-kicker">TREND</p><h3 id="chartTitle">行車時間趨勢</h3></div>
+            <div id="chartLegend" class="legend" aria-label="圖例"></div>
+          </div>
+          <div id="chart" class="chart" role="img" aria-label="交通趨勢折線圖">
+            <div class="chart-loading">正在整理趨勢資料…</div>
+          </div>
+        </article>
+
+        <aside class="panel source-panel">
+          <div class="panel-heading">
+            <div><p class="section-kicker">SOURCE HEALTH</p><h3>資料新鮮度</h3></div>
+          </div>
+          <div id="sourceHealth" class="source-health"></div>
+        </aside>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="panel-heading">
+          <div><p class="section-kicker">LATEST RECORDS</p><h3>最新觀測</h3></div>
+          <span id="recordCaption" class="record-caption"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead id="tableHead"><tr><th>時間</th><th>路線</th><th>方向</th><th>行車時間</th><th>交通差值</th><th>距離</th></tr></thead>
+            <tbody id="tableBody"><tr><td colspan="6" class="empty-cell">正在讀取資料…</td></tr></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
