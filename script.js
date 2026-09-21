@@ -7,6 +7,11 @@ menu.addEventListener('click', () => {
   const open = nav.classList.toggle('open');
   menu.setAttribute('aria-expanded', String(open));
 });
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && nav.classList.contains('open')) {
+    nav.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); menu.focus();
+  }
+});
 nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
   nav.classList.remove('open');
   menu.setAttribute('aria-expanded', 'false');

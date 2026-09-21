@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-Hant" data-mode="static">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Google Routes、TomTom 與 TDX 交通資料唯讀儀表板">
+  <title>Traffic Pulse｜交通資料儀表板</title>
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23197456'/%3E%3Cpath d='M5 21h5l4-12 5 16 3-9h5' fill='none' stroke='%23bfe8d4' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body><nav aria-label="公開入口"><a href="../">回公開首頁</a></nav>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <div>
+          <p class="eyebrow">TRAFFIC DATA RECORD</p>
+          <h1>交通脈動</h1>
+        </div>
+      </div>
+      <div class="status-cluster">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span id="systemStatus">正在讀取</span>
+        <span class="divider" aria-hidden="true"></span>
+        <time id="clock" title="目前台北時間，不是資料時間">--:--:--</time>
+      </div>
+    </header>
+
+    <main>
+      <section class="control-deck" aria-label="資料篩選">
+        <div class="deck-heading">
+          <div>
+            <p class="section-kicker">觀測總覽 · 唯讀</p>
+            <h2 id="sourceTitle">Google Routes</h2>
+          </div>
+          <p id="lastUpdated" class="last-updated">最後資料：讀取中</p>
+        </div>
+        <div id="sourceTabs" class="source-tabs" role="tablist" aria-label="資料來源"></div>
+        <div class="filters">
+          <label>
+            <span>監測項目</span>
+            <select id="entitySelect" aria-label="監測項目"><option value="">全部項目</option></select>
+          </label>
+          <label>
+            <span>時間範圍</span>
+            <select id="rangeSelect" aria-label="時間範圍">
+              <option value="24h">近 24 小時</option>
+              <option value="7d">近 7 天</option>
+              <option value="30d">近 30 天</option>
+              <option value="all">全部</option>
+            </select>
+          </label>
+          <button id="refreshButton" class="refresh-button" type="button">
+            重新讀取
+          </button>
+        </div>
+        <p id="snapshotNote" class="snapshot-note"></p>
+        <p id="loadStatus" class="load-status" role="status" aria-live="polite"></p>
+        <p id="coverageNote" class="coverage-note"></p>
+      </section>
+
+      <section id="metricGrid" class="metric-grid" aria-label="關鍵指標">
+        <article class="metric-card"><p>最新行車時間</p><strong>讀取中</strong><small>最近一筆完整路線</small></article>
+        <article class="metric-card"><p>平均行車時間</p><strong>—</strong><small>目前篩選範圍</small></article>
+        <article class="metric-card"><p>平均交通差值</p><strong>—</strong><small>相較基準時間</small></article>
+        <article class="metric-card"><p>觀測筆數</p><strong>—</strong><small>資料庫紀錄</small></article>
+      </section>
+
+      <section class="workspace-grid">
+        <article class="panel chart-panel">
+          <div class="panel-heading">
+            <div><p class="section-kicker">TREND</p><h3 id="chartTitle">行車時間趨勢</h3></div>
+            <div id="chartLegend" class="legend" aria-label="圖例"></div>
+          </div>
+          <div id="chart" class="chart" role="img" aria-label="交通趨勢折線圖">
+            <div class="chart-loading">正在整理趨勢資料…</div>
+          </div>
+        </article>
+
+        <aside class="panel source-panel">
+          <div class="panel-heading">
+            <div><p class="section-kicker">SOURCE TIME</p><h3>來源資料時間</h3></div>
+          </div>
+          <div id="sourceHealth" class="source-health"></div>
+        </aside>
+      </section>
+
+      <section class="panel table-panel">
+        <div class="panel-heading">
+          <div><p class="section-kicker">LATEST RECORDS</p><h3>最新觀測</h3></div>
+          <span id="recordCaption" class="record-caption"></span>
+        </div>
+        <div class="table-wrap" tabindex="0" aria-label="最新觀測表格，可橫向捲動">
+          <table>
+            <thead id="tableHead"><tr><th>時間</th><th>路線</th><th>方向</th><th>行車時間</th><th>交通差值</th><th>距離</th></tr></thead>
+            <tbody id="tableBody"><tr><td colspan="6" class="empty-cell">正在讀取資料…</td></tr></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="./adapter.js" defer></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "subset": "latin",
+  "downloaded": "2026-09-21",
+  "fonts": [
+    {
+      "family": "Inter",
+      "file": "inter-0.woff2",
+      "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "license": "licenses/inter-OFL.txt"
+    },
+    {
+      "family": "Lato",
+      "file": "lato-1.woff2",
+      "source": "https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wXiWtFCc.woff2",
+      "license": "licenses/lato-OFL.txt"
+    },
+    {
+      "family": "Lato",
+      "file": "lato-2.woff2",
+      "source": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2",
+      "license": "licenses/lato-OFL.txt"
+    },
+    {
+      "family": "Lato",
+      "file": "lato-3.woff2",
+      "source": "https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2",
+      "license": "licenses/lato-OFL.txt"
+    },
+    {
+      "family": "Montserrat",
+      "file": "montserrat-4.woff2",
+      "source": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+      "license": "licenses/montserrat-OFL.txt"
+    },
+    {
+      "family": "Noto Sans",
+      "file": "noto-sans-5.woff2",
+      "source": "https://fonts.gstatic.com/s/notosans/v42/o-0bIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjc5a7du3mhPy0.woff2",
+      "license": "licenses/notosans-OFL.txt"
+    },
+    {
+      "family": "Open Sans",
+      "file": "open-sans-6.woff2",
+      "source": "https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2",
+      "license": "licenses/opensans-OFL.txt"
+    },
+    {
+      "family": "Oswald",
+      "file": "oswald-7.woff2",
+      "source": "https://fonts.gstatic.com/s/oswald/v57/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlWHYjMdZwl.woff2",
+      "license": "licenses/oswald-OFL.txt"
+    },
+    {
+      "family": "Playfair Display",
+      "file": "playfair-display-8.woff2",
+      "source": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2",
+      "license": "licenses/playfairdisplay-OFL.txt"
+    },
+    {
+      "family": "Poppins",
+      "file": "poppins-9.woff2",
+      "source": "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2",
+      "license": "licenses/poppins-OFL.txt"
+    },
+    {
+      "family": "Poppins",
+      "file": "poppins-10.woff2",
+      "source": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2",
+      "license": "licenses/poppins-OFL.txt"
+    },
+    {
+      "family": "Poppins",
+      "file": "poppins-11.woff2",
+      "source": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2",
+      "license": "licenses/poppins-OFL.txt"
+    },
+    {
+      "family": "Poppins",
+      "file": "poppins-12.woff2",
+      "source": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDD4Z1xlFd2JQEk.woff2",
+      "license": "licenses/poppins-OFL.txt"
+    },
+    {
+      "family": "Raleway",
+      "file": "raleway-13.woff2",
+      "source": "https://fonts.gstatic.com/s/raleway/v37/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2",
+      "license": "licenses/raleway-OFL.txt"
+    },
+    {
+      "family": "Roboto",
+      "file": "roboto-14.woff2",
+      "source": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+      "license": "licenses/roboto-OFL.txt"
+    },
+    {
+      "family": "Roboto Condensed",
+      "file": "roboto-condensed-15.woff2",
+      "source": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQk6YvM.woff2",
+      "license": "licenses/robotocondensed-OFL.txt"
+    }
+  ]
+}

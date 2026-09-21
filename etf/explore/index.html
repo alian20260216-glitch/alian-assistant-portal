@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-Hant" data-mode="static">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ETF 持股、來源資料日、行情與每日變化唯讀查詢">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'">
+  <title>alian finance｜ETF 觀測台</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='10' fill='%23197456'/%3E%3Cpath d='M8 23V16h4v7zm6 0V11h4v12zm6 0V6h4v17z' fill='%23BFE8D4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script type="module" src="./assets/app.js"></script>
+</head>
+<body>
+  <nav aria-label="網站入口"><a href="../../">公開首頁</a> · <a href="../">ETF 每日報告</a></nav><main>
+    <header class="topbar">
+      <div>
+        <div class="brand-lockup"><span class="brand-mark" aria-hidden="true">✦</span><span class="brand-name">alian finance</span></div>
+        <p class="eyebrow">ETF DAILY DESK</p>
+        <h1>ETF 觀測台</h1>
+      </div>
+      <div class="as-of" aria-live="polite">
+        <span>業務日期</span>
+        <strong id="business-date">載入中</strong>
+        <small id="trade-date">行情交易日 —</small>
+      </div>
+    </header>
+
+    <p id="delivery-note" class="source-note"></p>
+    <section id="status" class="status loading" aria-live="polite">正在讀取資料…</section>
+    <section id="etf-cards" class="etf-grid" aria-label="ETF 清單"></section>
+
+    <section class="workspace" aria-labelledby="detail-title">
+      <div class="workspace-head">
+        <div>
+          <p class="eyebrow">HOLDINGS EXPLORER</p>
+          <h2 id="detail-title">選擇 ETF</h2>
+          <p id="detail-meta" class="muted">可查詢完整持股與相鄰來源日變化。</p>
+        </div>
+        <label class="date-control">
+          <span id="date-label">來源資料日</span>
+          <select id="source-date" disabled aria-label="選擇來源資料日"></select>
+        </label>
+      </div>
+
+      <div class="summary-row" aria-live="polite">
+        <div><span>成分筆數</span><strong id="holding-count">—</strong></div>
+        <div><span>權重合計</span><strong id="total-weight">—</strong></div>
+        <div><span>新增</span><strong id="added-count">—</strong></div>
+        <div><span>移除</span><strong id="removed-count">—</strong></div>
+        <div><span>權重異動</span><strong id="changed-count">—</strong></div>
+      </div>
+
+      <div class="toolbar">
+        <div class="tabs" role="tablist" aria-label="資料檢視">
+          <button class="tab active" data-view="holdings" role="tab" aria-selected="true">來源持股</button>
+          <button class="tab" data-view="changes" role="tab" aria-selected="false">每日變化</button>
+        </div>
+        <label class="search-control">
+          <span class="sr-only">搜尋股票代碼或名稱</span>
+          <input id="search" type="search" placeholder="搜尋代碼或名稱…">
+        </label>
+      </div>
+
+      <div class="table-shell" tabindex="0" aria-label="持股與變化表格，可橫向捲動">
+        <table>
+          <thead id="table-head"></thead>
+          <tbody id="table-body"></tbody>
+        </table>
+        <p id="empty" class="empty" hidden>沒有符合條件的資料。</p>
+      </div>
+      <footer id="source-note" class="source-note"></footer>
+    </section>
+  </main>
+</body>
+</html>
