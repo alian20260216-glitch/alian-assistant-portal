@@ -1,96 +1,32 @@
 <!doctype html>
 <html lang="zh-Hant">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#02050a" />
-    <meta name="description" content="ALIAN — 探索下一個前沿，從地球走向星際。" />
-    <meta property="og:title" content="ALIAN｜探索下一個前沿" />
-    <meta property="og:description" content="一座連結軌道任務、深空探索與未來科技的入口網站。" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/hero-space.png" />
-    <title>ALIAN｜探索下一個前沿</title>
-    <link rel="preload" href="assets/hero-space.png" as="image" type="image/png" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#main">前往主要內容</a>
-    <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="ALIAN 首頁">
-        <svg viewBox="0 0 46 46" aria-hidden="true"><path d="M23 3 42 37 23 29 4 37 23 3Zm0 10-9 17 9-4 9 4-9-17Z"/></svg>
-        <span>ALIAN</span>
-      </a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-menu>
-        <span></span><span></span><span></span><span class="sr-only">開啟選單</span>
-      </button>
-      <nav id="main-nav" class="main-nav" aria-label="主要選單" data-nav>
-        <a href="#websites">公開網站</a>
-        <a href="TrafficAna/">TrafficAna</a>
-        <a href="#missions">任務</a>
-        <a href="#technology">科技</a>
-        <a href="#vision">願景</a>
-        <a href="#contact">聯繫</a>
-      </nav>
-    </header>
-
-    <main id="main">
-      <section class="site-directory section" id="websites" aria-labelledby="websites-title">
-        <p class="eyebrow">ALIAN · PUBLIC WEBSITES</p>
-        <h2 id="websites-title">我的公開網站</h2>
-        <p>ETF 報告與互動工具。示範資料及公開筆記分開標示，不提供私人管理資訊。</p>
-        <div class="site-grid">
-          <a href="etf/" class="site-card"><small>每日公開報告</small><h3>ETF 每日變化</h3><p>查看來源資料日、行情交易日與持股變化；保留歷史報告。</p></a>
-          <a href="etf/explore/" class="site-card"><small>公開報告查詢</small><h3>ETF 互動觀測台</h3><p>切換已公開報告日期、搜尋變化，不含私人完整持股。</p></a>
-          <a href="traffic/" class="site-card"><small>合成示範資料</small><h3>交通脈動</h3><p>體驗三來源圖表與時間篩選；不是實際通勤資訊。</p></a>
-          <a href="research/" class="site-card"><small>公開白名單 · 目前空站</small><h3>公開研究筆記</h3><p>只展示明確選定的筆記；目前尚未選入內容。</p></a>
-          <a href="design/" class="site-card"><small>設計工具 · 範例內容</small><h3>ALIAN 設計範例庫</h3><p>調整字體、配色與版面，複製 CSS、JSON 或提示詞。</p></a>
-          <a href="projects/" class="site-card"><small>合成示範資料</small><h3>專案管理示範</h3><p>體驗唯讀摘要與過期提示；不代表真實專案或服務狀態。</p></a>
-        </div>
-        <p class="directory-note">以下保留原太空主題展示；任務與統計為視覺範例。</p>
-      </section>
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-shade"></div>
-        <div class="hero-content reveal">
-          <p class="eyebrow"><span></span> BEYOND THE HORIZON</p>
-          <h1 id="hero-title">探索<br />下一個前沿</h1>
-          <p class="hero-copy">從地球軌道到未知星際，我們以精密工程與無限想像，重新定義人類能抵達的距離。</p>
-          <a class="outline-button" href="#missions"><span>開始探索</span><span aria-hidden="true">↗</span></a>
-        </div>
-        <div class="mission-status" aria-label="即將進行的任務">
-          <span class="status-dot"></span>
-          <div><small>NEXT MISSION</small><strong>ORBITAL DAWN · T–18:42:09</strong></div>
-        </div>
-        <a class="scroll-cue" href="#missions" aria-label="向下捲動"><span>SCROLL</span><i></i></a>
-      </section>
-
-      <section class="missions section" id="missions">
-        <div class="section-heading reveal">
-          <p class="eyebrow"><span></span> ACTIVE PROGRAMS</p>
-          <h2>任務，不只抵達</h2>
-          <p>每一次升空，都讓太空更接近每一個人。</p>
-        </div>
-        <div class="mission-grid">
-          <article class="mission-card reveal"><span class="card-no">01</span><div class="orbit-icon" aria-hidden="true">◌</div><small>LOW EARTH ORBIT</small><h3>近地軌道</h3><p>打造高頻、低成本的軌道運輸網路，讓科學與通訊任務更快速進入太空。</p><a href="#contact">探索計畫 <span>→</span></a></article>
-          <article class="mission-card reveal"><span class="card-no">02</span><div class="orbit-icon" aria-hidden="true">◒</div><small>LUNAR FRONTIER</small><h3>月球前線</h3><p>建立可持續的月面探索能力，為長程深空任務奠定下一座前哨基地。</p><a href="#contact">探索計畫 <span>→</span></a></article>
-          <article class="mission-card reveal"><span class="card-no">03</span><div class="orbit-icon" aria-hidden="true">✦</div><small>DEEP SPACE</small><h3>深空探索</h3><p>跨越已知邊界，以自主導航與新世代推進技術，前往更遙遠的世界。</p><a href="#contact">探索計畫 <span>→</span></a></article>
-        </div>
-      </section>
-
-      <section class="technology section" id="technology">
-        <div class="tech-copy reveal"><p class="eyebrow"><span></span> ENGINEERED FOR TOMORROW</p><h2>為極限而生</h2><p>從可重複使用架構、即時飛控到自主任務系統，每個細節都為更可靠、更高效的太空旅程而設計。</p><div class="stats"><div><strong>99.8<em>%</em></strong><span>任務可靠度</span></div><div><strong>12<em>×</em></strong><span>重複使用週期</span></div><div><strong>24<em>/7</em></strong><span>全球任務支援</span></div></div></div>
-        <div class="tech-visual reveal" aria-hidden="true"><div class="rings"><i></i><i></i><i></i><b></b></div><span>VECTOR / 07</span></div>
-      </section>
-
-      <section class="vision" id="vision">
-        <div class="vision-content reveal"><p class="eyebrow"><span></span> OUR NORTH STAR</p><blockquote>「未來不是等待被發現，<br />而是由我們共同抵達。」</blockquote><p>讓下一代仰望星空時，看見的不只是遙不可及的光，而是一條真正能夠出發的路。</p></div>
-      </section>
-
-      <section class="contact section" id="contact">
-        <p class="eyebrow reveal"><span></span> JOIN THE MISSION</p><h2 class="reveal">下一段旅程<br />從此刻開始</h2><a class="outline-button reveal" href="mailto:hello@example.com"><span>與我們聯繫</span><span aria-hidden="true">↗</span></a>
-      </section>
-    </main>
-
-    <footer><a class="brand" href="#top"><span>ALIAN</span></a><p>© <span data-year></span> ALIAN EXPLORATION</p><div><a href="#">INSTAGRAM</a><a href="#">X / TWITTER</a><a href="#">LINKEDIN</a></div></footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08111c">
+  <meta name="description" content="ALIAN 公開網站統一入口：ETF 報告、互動工具、研究筆記與設計範例。">
+  <title>ALIAN｜公開網站入口</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">前往主要內容</a>
+  <header><a class="brand" href="./" aria-label="ALIAN 首頁">ALIAN<span> / PUBLIC</span></a><a href="#websites">所有網站 ↘</a></header>
+  <main id="main">
+    <section class="intro" aria-labelledby="title"><p class="eyebrow">ONE PLACE TO EXPLORE</p><h1 id="title">你的下一站，<br>都在這裡。</h1><p>公開報告與工具的統一入口。<br>真實公開資料、合成示範與設計範例，清楚分開。</p></section>
+    <section id="websites" aria-labelledby="websites-title">
+      <div class="section-heading"><h2 id="websites-title">公開網站</h2><span>06 個入口</span></div>
+      <div class="site-grid">
+        <a href="etf/" class="site-card"><small>01 / 每日公開報告</small><h3>ETF 每日變化 <span aria-hidden="true">↗</span></h3><p>查看來源資料日、行情交易日與持股變化；保留新版歷史報告。</p></a>
+        <a href="etf/explore/" class="site-card"><small>02 / 公開報告查詢</small><h3>ETF 互動觀測台 <span aria-hidden="true">↗</span></h3><p>切換已公開報告日期、搜尋變化，不含私人完整持股。</p></a>
+        <a href="traffic/" class="site-card"><small>03 / 合成示範資料</small><h3>交通脈動 <span aria-hidden="true">↗</span></h3><p>體驗三來源圖表與時間篩選；不是實際通勤資訊。</p></a>
+        <a href="research/" class="site-card"><small>04 / 公開白名單・目前空站</small><h3>公開研究筆記 <span aria-hidden="true">↗</span></h3><p>只展示明確選定的筆記；目前尚未選入內容。</p></a>
+        <a href="design/" class="site-card"><small>05 / 設計工具・範例內容</small><h3>ALIAN 設計範例庫 <span aria-hidden="true">↗</span></h3><p>調整字體、配色與版面，複製 CSS、JSON 或提示詞。</p></a>
+        <a href="projects/" class="site-card"><small>06 / 合成示範資料</small><h3>專案管理示範 <span aria-hidden="true">↗</span></h3><p>體驗唯讀摘要與過期提示；不代表真實專案或服務狀態。</p></a>
+      </div>
+      <p class="note">私人管理資訊不在此公開。資料日期及更新狀態，請以各網站標示為準。</p>
+    </section>
+  </main>
+  <footer><span>ALIAN</span><span>© <span data-year>2026</span> · 公開網站入口</span></footer>
+</body>
 </html>
