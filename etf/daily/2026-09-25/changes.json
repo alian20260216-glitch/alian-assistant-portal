@@ -1,0 +1,279 @@
+{
+  "schema_version": 3,
+  "report_date": "2026-09-25",
+  "timezone": "Asia/Taipei",
+  "generated_at": "2026-09-25T11:33:14.975303+00:00",
+  "price_trade_date": "2026-09-24",
+  "source_dates": {
+    "0050": "2026-09-24",
+    "00403A": "2026-09-24",
+    "00887": "2026-09-23",
+    "00981A": "2026-09-24",
+    "00988A": "2026-09-23",
+    "00998A": "2026-09-23"
+  },
+  "etfs": [
+    {
+      "etf_code": "0050",
+      "etf_name": "元大台灣50",
+      "source_date": "2026-09-24",
+      "source_freshness": "stale",
+      "count": 50,
+      "total_weight_pct": 99.71,
+      "source": "元大投信",
+      "fetched_at": "2026-09-25T11:33:02.787724+00:00",
+      "disclosure_scope": "complete_stock_holdings_reported_by_source",
+      "price": {
+        "etf_code": "0050",
+        "etf_name": "元大台灣50",
+        "trade_date": "2026-09-24",
+        "open_price": 112.0,
+        "high_price": 112.45,
+        "low_price": 111.75,
+        "close_price": 112.4,
+        "previous_close": 112.45,
+        "source_timestamp": "2026-09-24T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-09-25T11:33:14.975303+00:00",
+        "change": -0.05
+      },
+      "previous_published_source_date": "2026-09-24",
+      "source_advanced": false,
+      "comparison": {
+        "etf_code": "0050",
+        "etf_name": "元大台灣50",
+        "from_source_date": "2026-09-23",
+        "to_source_date": "2026-09-24",
+        "added": [],
+        "removed": [],
+        "changed": [],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 0
+        }
+      }
+    },
+    {
+      "etf_code": "00403A",
+      "etf_name": "主動統一升級50",
+      "source_date": "2026-09-24",
+      "source_freshness": "stale",
+      "count": 50,
+      "total_weight_pct": 93.38,
+      "source": "統一投信",
+      "fetched_at": "2026-09-25T11:33:10.732442+00:00",
+      "disclosure_scope": "complete_stock_holdings_reported_by_source",
+      "price": {
+        "etf_code": "00403A",
+        "etf_name": "主動統一升級50",
+        "trade_date": "2026-09-24",
+        "open_price": 10.74,
+        "high_price": 10.89,
+        "low_price": 10.74,
+        "close_price": 10.88,
+        "previous_close": 10.81,
+        "source_timestamp": "2026-09-24T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-09-25T11:33:14.975303+00:00",
+        "change": 0.07
+      },
+      "previous_published_source_date": "2026-09-24",
+      "source_advanced": false,
+      "comparison": {
+        "etf_code": "00403A",
+        "etf_name": "主動統一升級50",
+        "from_source_date": "2026-09-23",
+        "to_source_date": "2026-09-24",
+        "added": [],
+        "removed": [],
+        "changed": [],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 0
+        }
+      }
+    },
+    {
+      "etf_code": "00887",
+      "etf_name": "永豐中國科技50大",
+      "source_date": "2026-09-23",
+      "source_freshness": "stale",
+      "count": 10,
+      "total_weight_pct": 54.14,
+      "source": "MoneyDJ理財網",
+      "fetched_at": "2026-09-25T11:33:13.670435+00:00",
+      "disclosure_scope": "top_holdings_reported_by_source",
+      "price": {
+        "etf_code": "00887",
+        "etf_name": "永豐中國科技50大",
+        "trade_date": "2026-09-24",
+        "open_price": 16.01,
+        "high_price": 16.09,
+        "low_price": 15.85,
+        "close_price": 15.89,
+        "previous_close": 16.12,
+        "source_timestamp": "2026-09-24T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-09-25T11:33:14.975303+00:00",
+        "change": -0.23
+      },
+      "previous_published_source_date": "2026-09-23",
+      "source_advanced": false,
+      "comparison": {
+        "etf_code": "00887",
+        "etf_name": "永豐中國科技50大",
+        "from_source_date": "2026-09-22",
+        "to_source_date": "2026-09-23",
+        "added": [],
+        "removed": [],
+        "changed": [],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 0
+        }
+      }
+    },
+    {
+      "etf_code": "00981A",
+      "etf_name": "主動統一台股增長",
+      "source_date": "2026-09-24",
+      "source_freshness": "stale",
+      "count": 50,
+      "total_weight_pct": 97.02,
+      "source": "統一投信",
+      "fetched_at": "2026-09-25T11:33:09.176789+00:00",
+      "disclosure_scope": "complete_stock_holdings_reported_by_source",
+      "price": {
+        "etf_code": "00981A",
+        "etf_name": "主動統一台股增長",
+        "trade_date": "2026-09-24",
+        "open_price": 30.46,
+        "high_price": 30.86,
+        "low_price": 30.45,
+        "close_price": 30.85,
+        "previous_close": 30.65,
+        "source_timestamp": "2026-09-24T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-09-25T11:33:14.975303+00:00",
+        "change": 0.2
+      },
+      "previous_published_source_date": "2026-09-24",
+      "source_advanced": false,
+      "comparison": {
+        "etf_code": "00981A",
+        "etf_name": "主動統一台股增長",
+        "from_source_date": "2026-09-23",
+        "to_source_date": "2026-09-24",
+        "added": [],
+        "removed": [],
+        "changed": [],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 0
+        }
+      }
+    },
+    {
+      "etf_code": "00988A",
+      "etf_name": "主動統一全球創新",
+      "source_date": "2026-09-23",
+      "source_freshness": "stale",
+      "count": 42,
+      "total_weight_pct": 97.48,
+      "source": "統一投信",
+      "fetched_at": "2026-09-25T11:33:07.631896+00:00",
+      "disclosure_scope": "complete_stock_holdings_reported_by_source",
+      "price": {
+        "etf_code": "00988A",
+        "etf_name": "主動統一全球創新",
+        "trade_date": "2026-09-24",
+        "open_price": 16.9,
+        "high_price": 16.96,
+        "low_price": 16.84,
+        "close_price": 16.91,
+        "previous_close": 16.95,
+        "source_timestamp": "2026-09-24T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-09-25T11:33:14.975303+00:00",
+        "change": -0.04
+      },
+      "previous_published_source_date": "2026-09-23",
+      "source_advanced": false,
+      "comparison": {
+        "etf_code": "00988A",
+        "etf_name": "主動統一全球創新",
+        "from_source_date": "2026-09-22",
+        "to_source_date": "2026-09-23",
+        "added": [],
+        "removed": [],
+        "changed": [],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 0
+        }
+      }
+    },
+    {
+      "etf_code": "00998A",
+      "etf_name": "主動復華金融股息",
+      "source_date": "2026-09-23",
+      "source_freshness": "stale",
+      "count": 52,
+      "total_weight_pct": 95.89,
+      "source": "CMoney台股ETF",
+      "fetched_at": "2026-09-25T11:33:12.445247+00:00",
+      "disclosure_scope": "complete_stock_holdings_reported_by_source",
+      "price": {
+        "etf_code": "00998A",
+        "etf_name": "主動復華金融股息",
+        "trade_date": "2026-09-24",
+        "open_price": 16.68,
+        "high_price": 16.68,
+        "low_price": 16.6,
+        "close_price": 16.63,
+        "previous_close": 16.84,
+        "source_timestamp": "2026-09-24T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-09-25T11:33:14.975303+00:00",
+        "change": -0.21
+      },
+      "previous_published_source_date": "2026-09-23",
+      "source_advanced": false,
+      "comparison": {
+        "etf_code": "00998A",
+        "etf_name": "主動復華金融股息",
+        "from_source_date": "2026-09-22",
+        "to_source_date": "2026-09-23",
+        "added": [],
+        "removed": [],
+        "changed": [],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 0
+        }
+      }
+    }
+  ],
+  "planned_etfs": [
+    {
+      "etf_code": "00412A",
+      "etf_name": "主動安聯亞半導體",
+      "market": "tse",
+      "active_from": "2026-10-13",
+      "status": "待掛牌"
+    }
+  ],
+  "content_hash": "6d435df9a4f8ad590f8838be11e7ed8afcf02373f351ae3611f436ca9f2fcb7d"
+}
