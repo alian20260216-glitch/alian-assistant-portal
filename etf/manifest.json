@@ -1,8 +1,8 @@
 {
   "schema_version": 3,
-  "latest_report_date": "2026-09-25",
+  "latest_report_date": "2026-09-28",
   "timezone": "Asia/Taipei",
-  "generated_at": "2026-09-25T11:33:14.975303+00:00",
+  "generated_at": "2026-09-28T11:30:28.521076+00:00",
   "price_trade_date": "2026-09-24",
   "source_dates": {
     "0050": "2026-09-24",
@@ -21,8 +21,9 @@
       "status": "待掛牌"
     }
   ],
-  "content_hash": "6d435df9a4f8ad590f8838be11e7ed8afcf02373f351ae3611f436ca9f2fcb7d",
+  "content_hash": "3750ea63501d6bea24aa200be0996d7ad0ee2553da0797646909e2b799ec7ca3",
   "archive_dates": [
+    "2026-09-28",
     "2026-09-25",
     "2026-09-24",
     "2026-09-23",
