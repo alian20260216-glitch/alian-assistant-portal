@@ -1,0 +1,1456 @@
+{
+  "schema_version": 3,
+  "report_date": "2026-10-07",
+  "timezone": "Asia/Taipei",
+  "generated_at": "2026-10-07T12:29:13.497029+00:00",
+  "price_trade_date": "2026-10-07",
+  "source_dates": {
+    "0050": "2026-10-07",
+    "00403A": "2026-10-07",
+    "00887": "2026-09-30",
+    "00981A": "2026-10-07",
+    "00988A": "2026-10-06",
+    "00998A": "2026-10-06"
+  },
+  "etfs": [
+    {
+      "etf_code": "0050",
+      "etf_name": "元大台灣50",
+      "source_date": "2026-10-07",
+      "source_freshness": "current",
+      "count": 50,
+      "total_weight_pct": 99.73,
+      "source": "元大投信",
+      "fetched_at": "2026-10-07T12:28:59.197956+00:00",
+      "disclosure_scope": "complete_stock_holdings_reported_by_source",
+      "price": {
+        "etf_code": "0050",
+        "etf_name": "元大台灣50",
+        "trade_date": "2026-10-07",
+        "open_price": 116.15,
+        "high_price": 116.55,
+        "low_price": 115.95,
+        "close_price": 116.05,
+        "previous_close": 116.5,
+        "source_timestamp": "2026-10-07T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-10-07T12:29:13.497029+00:00",
+        "change": -0.45
+      },
+      "previous_published_source_date": "2026-10-06",
+      "source_advanced": true,
+      "comparison": {
+        "etf_code": "0050",
+        "etf_name": "元大台灣50",
+        "from_source_date": "2026-10-06",
+        "to_source_date": "2026-10-07",
+        "added": [],
+        "removed": [],
+        "changed": [
+          {
+            "security_code": "2330",
+            "security_name": "台積電",
+            "previous_weight_pct": 56.43,
+            "current_weight_pct": 56.56,
+            "change_pp": 0.13
+          },
+          {
+            "security_code": "1303",
+            "security_name": "南亞",
+            "previous_weight_pct": 1.29,
+            "current_weight_pct": 1.39,
+            "change_pp": 0.1
+          },
+          {
+            "security_code": "2454",
+            "security_name": "聯發科",
+            "previous_weight_pct": 6.47,
+            "current_weight_pct": 6.37,
+            "change_pp": -0.1
+          },
+          {
+            "security_code": "2308",
+            "security_name": "台達電",
+            "previous_weight_pct": 3.53,
+            "current_weight_pct": 3.44,
+            "change_pp": -0.09
+          },
+          {
+            "security_code": "2059",
+            "security_name": "川湖",
+            "previous_weight_pct": 0.65,
+            "current_weight_pct": 0.58,
+            "change_pp": -0.07
+          },
+          {
+            "security_code": "2317",
+            "security_name": "鴻海",
+            "previous_weight_pct": 2.79,
+            "current_weight_pct": 2.75,
+            "change_pp": -0.04
+          },
+          {
+            "security_code": "2327",
+            "security_name": "國巨*",
+            "previous_weight_pct": 0.88,
+            "current_weight_pct": 0.91,
+            "change_pp": 0.03
+          },
+          {
+            "security_code": "3017",
+            "security_name": "奇鋐",
+            "previous_weight_pct": 1.05,
+            "current_weight_pct": 1.02,
+            "change_pp": -0.03
+          },
+          {
+            "security_code": "3711",
+            "security_name": "日月光投控",
+            "previous_weight_pct": 2.2,
+            "current_weight_pct": 2.17,
+            "change_pp": -0.03
+          },
+          {
+            "security_code": "3653",
+            "security_name": "健策",
+            "previous_weight_pct": 0.55,
+            "current_weight_pct": 0.53,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "2408",
+            "security_name": "南亞科",
+            "previous_weight_pct": 0.61,
+            "current_weight_pct": 0.59,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "2882",
+            "security_name": "國泰金",
+            "previous_weight_pct": 0.95,
+            "current_weight_pct": 0.97,
+            "change_pp": 0.02
+          },
+          {
+            "security_code": "2345",
+            "security_name": "智邦",
+            "previous_weight_pct": 0.91,
+            "current_weight_pct": 0.89,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "2360",
+            "security_name": "致茂",
+            "previous_weight_pct": 0.77,
+            "current_weight_pct": 0.79,
+            "change_pp": 0.02
+          },
+          {
+            "security_code": "2891",
+            "security_name": "中信金",
+            "previous_weight_pct": 1.08,
+            "current_weight_pct": 1.09,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "2449",
+            "security_name": "京元電子",
+            "previous_weight_pct": 0.3,
+            "current_weight_pct": 0.31,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "2885",
+            "security_name": "元大金",
+            "previous_weight_pct": 0.71,
+            "current_weight_pct": 0.72,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "2886",
+            "security_name": "兆豐金",
+            "previous_weight_pct": 0.52,
+            "current_weight_pct": 0.53,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "2301",
+            "security_name": "光寶科",
+            "previous_weight_pct": 0.52,
+            "current_weight_pct": 0.53,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "2883",
+            "security_name": "凱基金",
+            "previous_weight_pct": 0.53,
+            "current_weight_pct": 0.54,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "3443",
+            "security_name": "創意",
+            "previous_weight_pct": 0.6,
+            "current_weight_pct": 0.61,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "8046",
+            "security_name": "南電",
+            "previous_weight_pct": 0.34,
+            "current_weight_pct": 0.33,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "2383",
+            "security_name": "台光電",
+            "previous_weight_pct": 1.56,
+            "current_weight_pct": 1.55,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "6505",
+            "security_name": "台塑化",
+            "previous_weight_pct": 0.1,
+            "current_weight_pct": 0.11,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "2887",
+            "security_name": "台新新光金",
+            "previous_weight_pct": 0.87,
+            "current_weight_pct": 0.88,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "5880",
+            "security_name": "合庫金",
+            "previous_weight_pct": 0.25,
+            "current_weight_pct": 0.26,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "2881",
+            "security_name": "富邦金",
+            "previous_weight_pct": 1.15,
+            "current_weight_pct": 1.16,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "3231",
+            "security_name": "緯創",
+            "previous_weight_pct": 0.51,
+            "current_weight_pct": 0.5,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "6669",
+            "security_name": "緯穎",
+            "previous_weight_pct": 0.63,
+            "current_weight_pct": 0.62,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "2303",
+            "security_name": "聯電",
+            "previous_weight_pct": 1.54,
+            "current_weight_pct": 1.55,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "4958",
+            "security_name": "臻鼎-KY",
+            "previous_weight_pct": 0.41,
+            "current_weight_pct": 0.42,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "2880",
+            "security_name": "華南金",
+            "previous_weight_pct": 0.38,
+            "current_weight_pct": 0.39,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "2344",
+            "security_name": "華邦電",
+            "previous_weight_pct": 0.49,
+            "current_weight_pct": 0.5,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "6446",
+            "security_name": "藥華藥",
+            "previous_weight_pct": 0.33,
+            "current_weight_pct": 0.34,
+            "change_pp": 0.01
+          }
+        ],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 34
+        }
+      }
+    },
+    {
+      "etf_code": "00403A",
+      "etf_name": "主動統一升級50",
+      "source_date": "2026-10-07",
+      "source_freshness": "current",
+      "count": 51,
+      "total_weight_pct": 91.36,
+      "source": "統一投信",
+      "fetched_at": "2026-10-07T12:29:08.650207+00:00",
+      "disclosure_scope": "complete_stock_holdings_reported_by_source",
+      "price": {
+        "etf_code": "00403A",
+        "etf_name": "主動統一升級50",
+        "trade_date": "2026-10-07",
+        "open_price": 11.41,
+        "high_price": 11.53,
+        "low_price": 11.34,
+        "close_price": 11.36,
+        "previous_close": 11.42,
+        "source_timestamp": "2026-10-07T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-10-07T12:29:13.497029+00:00",
+        "change": -0.06
+      },
+      "previous_published_source_date": "2026-10-06",
+      "source_advanced": true,
+      "comparison": {
+        "etf_code": "00403A",
+        "etf_name": "主動統一升級50",
+        "from_source_date": "2026-10-06",
+        "to_source_date": "2026-10-07",
+        "added": [],
+        "removed": [],
+        "changed": [
+          {
+            "security_code": "6488",
+            "security_name": "環球晶",
+            "previous_weight_pct": 2.33,
+            "current_weight_pct": 1.34,
+            "change_pp": -0.99
+          },
+          {
+            "security_code": "2303",
+            "security_name": "聯電",
+            "previous_weight_pct": 2.43,
+            "current_weight_pct": 2.05,
+            "change_pp": -0.38
+          },
+          {
+            "security_code": "2327",
+            "security_name": "國巨*",
+            "previous_weight_pct": 3.6,
+            "current_weight_pct": 3.93,
+            "change_pp": 0.33
+          },
+          {
+            "security_code": "1303",
+            "security_name": "南亞",
+            "previous_weight_pct": 2.21,
+            "current_weight_pct": 2.49,
+            "change_pp": 0.28
+          },
+          {
+            "security_code": "3443",
+            "security_name": "創意",
+            "previous_weight_pct": 3.56,
+            "current_weight_pct": 3.74,
+            "change_pp": 0.18
+          },
+          {
+            "security_code": "3653",
+            "security_name": "健策",
+            "previous_weight_pct": 5.41,
+            "current_weight_pct": 5.24,
+            "change_pp": -0.17
+          },
+          {
+            "security_code": "3017",
+            "security_name": "奇鋐",
+            "previous_weight_pct": 5.3,
+            "current_weight_pct": 5.14,
+            "change_pp": -0.16
+          },
+          {
+            "security_code": "3189",
+            "security_name": "景碩",
+            "previous_weight_pct": 3.26,
+            "current_weight_pct": 3.38,
+            "change_pp": 0.12
+          },
+          {
+            "security_code": "2330",
+            "security_name": "台積電",
+            "previous_weight_pct": 13.64,
+            "current_weight_pct": 13.75,
+            "change_pp": 0.11
+          },
+          {
+            "security_code": "2368",
+            "security_name": "金像電",
+            "previous_weight_pct": 0.17,
+            "current_weight_pct": 0.28,
+            "change_pp": 0.11
+          },
+          {
+            "security_code": "6274",
+            "security_name": "台燿",
+            "previous_weight_pct": 2.28,
+            "current_weight_pct": 2.38,
+            "change_pp": 0.1
+          },
+          {
+            "security_code": "2308",
+            "security_name": "台達電",
+            "previous_weight_pct": 4.07,
+            "current_weight_pct": 3.99,
+            "change_pp": -0.08
+          },
+          {
+            "security_code": "8996",
+            "security_name": "高力",
+            "previous_weight_pct": 1.97,
+            "current_weight_pct": 2.05,
+            "change_pp": 0.08
+          },
+          {
+            "security_code": "5274",
+            "security_name": "信驊",
+            "previous_weight_pct": 1.24,
+            "current_weight_pct": 1.17,
+            "change_pp": -0.07
+          },
+          {
+            "security_code": "2059",
+            "security_name": "川湖",
+            "previous_weight_pct": 0.67,
+            "current_weight_pct": 0.61,
+            "change_pp": -0.06
+          },
+          {
+            "security_code": "6223",
+            "security_name": "旺矽",
+            "previous_weight_pct": 3.61,
+            "current_weight_pct": 3.55,
+            "change_pp": -0.06
+          },
+          {
+            "security_code": "2454",
+            "security_name": "聯發科",
+            "previous_weight_pct": 6.57,
+            "current_weight_pct": 6.51,
+            "change_pp": -0.06
+          },
+          {
+            "security_code": "6442",
+            "security_name": "光聖",
+            "previous_weight_pct": 0.4,
+            "current_weight_pct": 0.44,
+            "change_pp": 0.04
+          },
+          {
+            "security_code": "3037",
+            "security_name": "欣興",
+            "previous_weight_pct": 7.0,
+            "current_weight_pct": 7.03,
+            "change_pp": 0.03
+          },
+          {
+            "security_code": "6669",
+            "security_name": "緯穎",
+            "previous_weight_pct": 2.66,
+            "current_weight_pct": 2.63,
+            "change_pp": -0.03
+          },
+          {
+            "security_code": "2408",
+            "security_name": "南亞科",
+            "previous_weight_pct": 1.01,
+            "current_weight_pct": 0.99,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "8046",
+            "security_name": "南電",
+            "previous_weight_pct": 3.1,
+            "current_weight_pct": 3.08,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "2345",
+            "security_name": "智邦",
+            "previous_weight_pct": 2.25,
+            "current_weight_pct": 2.23,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "8358",
+            "security_name": "金居",
+            "previous_weight_pct": 0.02,
+            "current_weight_pct": 0.0,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "2449",
+            "security_name": "京元電子",
+            "previous_weight_pct": 0.82,
+            "current_weight_pct": 0.83,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "3008",
+            "security_name": "大立光",
+            "previous_weight_pct": 0.94,
+            "current_weight_pct": 0.95,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "6805",
+            "security_name": "富世達",
+            "previous_weight_pct": 0.58,
+            "current_weight_pct": 0.59,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "3583",
+            "security_name": "辛耘",
+            "previous_weight_pct": 0.42,
+            "current_weight_pct": 0.41,
+            "change_pp": -0.01
+          }
+        ],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 28
+        }
+      }
+    },
+    {
+      "etf_code": "00887",
+      "etf_name": "永豐中國科技50大",
+      "source_date": "2026-09-30",
+      "source_freshness": "stale",
+      "count": 10,
+      "total_weight_pct": 51.51,
+      "source": "MoneyDJ理財網",
+      "fetched_at": "2026-10-07T12:29:11.385924+00:00",
+      "disclosure_scope": "top_holdings_reported_by_source",
+      "price": {
+        "etf_code": "00887",
+        "etf_name": "永豐中國科技50大",
+        "trade_date": "2026-10-07",
+        "open_price": 15.08,
+        "high_price": 15.12,
+        "low_price": 15.03,
+        "close_price": 15.1,
+        "previous_close": 15.07,
+        "source_timestamp": "2026-10-07T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-10-07T12:29:13.497029+00:00",
+        "change": 0.03
+      },
+      "previous_published_source_date": "2026-09-30",
+      "source_advanced": false,
+      "comparison": {
+        "etf_code": "00887",
+        "etf_name": "永豐中國科技50大",
+        "from_source_date": "2026-09-29",
+        "to_source_date": "2026-09-30",
+        "added": [],
+        "removed": [],
+        "changed": [],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 0
+        }
+      }
+    },
+    {
+      "etf_code": "00981A",
+      "etf_name": "主動統一台股增長",
+      "source_date": "2026-10-07",
+      "source_freshness": "current",
+      "count": 50,
+      "total_weight_pct": 96.94,
+      "source": "統一投信",
+      "fetched_at": "2026-10-07T12:29:06.905139+00:00",
+      "disclosure_scope": "complete_stock_holdings_reported_by_source",
+      "price": {
+        "etf_code": "00981A",
+        "etf_name": "主動統一台股增長",
+        "trade_date": "2026-10-07",
+        "open_price": 32.65,
+        "high_price": 32.88,
+        "low_price": 32.26,
+        "close_price": 32.26,
+        "previous_close": 32.6,
+        "source_timestamp": "2026-10-07T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-10-07T12:29:13.497029+00:00",
+        "change": -0.34
+      },
+      "previous_published_source_date": "2026-10-06",
+      "source_advanced": true,
+      "comparison": {
+        "etf_code": "00981A",
+        "etf_name": "主動統一台股增長",
+        "from_source_date": "2026-10-06",
+        "to_source_date": "2026-10-07",
+        "added": [],
+        "removed": [],
+        "changed": [
+          {
+            "security_code": "3443",
+            "security_name": "創意",
+            "previous_weight_pct": 1.47,
+            "current_weight_pct": 1.78,
+            "change_pp": 0.31
+          },
+          {
+            "security_code": "3665",
+            "security_name": "貿聯-KY",
+            "previous_weight_pct": 2.67,
+            "current_weight_pct": 2.41,
+            "change_pp": -0.26
+          },
+          {
+            "security_code": "2327",
+            "security_name": "國巨*",
+            "previous_weight_pct": 4.96,
+            "current_weight_pct": 5.2,
+            "change_pp": 0.24
+          },
+          {
+            "security_code": "3017",
+            "security_name": "奇鋐",
+            "previous_weight_pct": 7.54,
+            "current_weight_pct": 7.35,
+            "change_pp": -0.19
+          },
+          {
+            "security_code": "3653",
+            "security_name": "健策",
+            "previous_weight_pct": 5.98,
+            "current_weight_pct": 5.82,
+            "change_pp": -0.16
+          },
+          {
+            "security_code": "2330",
+            "security_name": "台積電",
+            "previous_weight_pct": 10.0,
+            "current_weight_pct": 10.13,
+            "change_pp": 0.13
+          },
+          {
+            "security_code": "2368",
+            "security_name": "金像電",
+            "previous_weight_pct": 1.35,
+            "current_weight_pct": 1.46,
+            "change_pp": 0.11
+          },
+          {
+            "security_code": "2308",
+            "security_name": "台達電",
+            "previous_weight_pct": 5.11,
+            "current_weight_pct": 5.03,
+            "change_pp": -0.08
+          },
+          {
+            "security_code": "3037",
+            "security_name": "欣興",
+            "previous_weight_pct": 8.53,
+            "current_weight_pct": 8.61,
+            "change_pp": 0.08
+          },
+          {
+            "security_code": "2303",
+            "security_name": "聯電",
+            "previous_weight_pct": 3.96,
+            "current_weight_pct": 4.04,
+            "change_pp": 0.08
+          },
+          {
+            "security_code": "5274",
+            "security_name": "信驊",
+            "previous_weight_pct": 1.01,
+            "current_weight_pct": 0.96,
+            "change_pp": -0.05
+          },
+          {
+            "security_code": "2383",
+            "security_name": "台光電",
+            "previous_weight_pct": 9.41,
+            "current_weight_pct": 9.46,
+            "change_pp": 0.05
+          },
+          {
+            "security_code": "6223",
+            "security_name": "旺矽",
+            "previous_weight_pct": 4.78,
+            "current_weight_pct": 4.73,
+            "change_pp": -0.05
+          },
+          {
+            "security_code": "6274",
+            "security_name": "台燿",
+            "previous_weight_pct": 3.83,
+            "current_weight_pct": 3.8,
+            "change_pp": -0.03
+          },
+          {
+            "security_code": "2454",
+            "security_name": "聯發科",
+            "previous_weight_pct": 8.44,
+            "current_weight_pct": 8.41,
+            "change_pp": -0.03
+          },
+          {
+            "security_code": "2449",
+            "security_name": "京元電子",
+            "previous_weight_pct": 1.3,
+            "current_weight_pct": 1.32,
+            "change_pp": 0.02
+          },
+          {
+            "security_code": "8046",
+            "security_name": "南電",
+            "previous_weight_pct": 4.54,
+            "current_weight_pct": 4.52,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "6805",
+            "security_name": "富世達",
+            "previous_weight_pct": 0.56,
+            "current_weight_pct": 0.58,
+            "change_pp": 0.02
+          },
+          {
+            "security_code": "6669",
+            "security_name": "緯穎",
+            "previous_weight_pct": 3.33,
+            "current_weight_pct": 3.31,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "3711",
+            "security_name": "日月光投控",
+            "previous_weight_pct": 2.33,
+            "current_weight_pct": 2.32,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "2345",
+            "security_name": "智邦",
+            "previous_weight_pct": 4.33,
+            "current_weight_pct": 4.32,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "6515",
+            "security_name": "穎崴",
+            "previous_weight_pct": 0.19,
+            "current_weight_pct": 0.18,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "6191",
+            "security_name": "精成科",
+            "previous_weight_pct": 0.11,
+            "current_weight_pct": 0.12,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "8996",
+            "security_name": "高力",
+            "previous_weight_pct": 0.26,
+            "current_weight_pct": 0.27,
+            "change_pp": 0.01
+          }
+        ],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 24
+        }
+      }
+    },
+    {
+      "etf_code": "00988A",
+      "etf_name": "主動統一全球創新",
+      "source_date": "2026-10-06",
+      "source_freshness": "stale",
+      "count": 40,
+      "total_weight_pct": 96.54,
+      "source": "統一投信",
+      "fetched_at": "2026-10-07T12:29:05.266161+00:00",
+      "disclosure_scope": "complete_stock_holdings_reported_by_source",
+      "price": {
+        "etf_code": "00988A",
+        "etf_name": "主動統一全球創新",
+        "trade_date": "2026-10-07",
+        "open_price": 17.64,
+        "high_price": 17.69,
+        "low_price": 17.57,
+        "close_price": 17.59,
+        "previous_close": 17.6,
+        "source_timestamp": "2026-10-07T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-10-07T12:29:13.497029+00:00",
+        "change": -0.01
+      },
+      "previous_published_source_date": "2026-10-05",
+      "source_advanced": true,
+      "comparison": {
+        "etf_code": "00988A",
+        "etf_name": "主動統一全球創新",
+        "from_source_date": "2026-10-05",
+        "to_source_date": "2026-10-06",
+        "added": [
+          {
+            "security_code": "6762 JP",
+            "security_name": "TDK CORP",
+            "current_weight_pct": 0.94
+          },
+          {
+            "security_code": "6787 JP",
+            "security_name": "MEIKO ELECTRONICS CO LTD",
+            "current_weight_pct": 0.24
+          }
+        ],
+        "removed": [
+          {
+            "security_code": "285A JP",
+            "security_name": "KIOXIA HOLDINGS CORP",
+            "previous_weight_pct": 0.78
+          }
+        ],
+        "changed": [
+          {
+            "security_code": "2303",
+            "security_name": "聯電",
+            "previous_weight_pct": 2.71,
+            "current_weight_pct": 1.95,
+            "change_pp": -0.76
+          },
+          {
+            "security_code": "1303",
+            "security_name": "南亞",
+            "previous_weight_pct": 0.26,
+            "current_weight_pct": 0.99,
+            "change_pp": 0.73
+          },
+          {
+            "security_code": "INTC US",
+            "security_name": "INTEL CORP",
+            "previous_weight_pct": 3.72,
+            "current_weight_pct": 3.11,
+            "change_pp": -0.61
+          },
+          {
+            "security_code": "OKTA US",
+            "security_name": "OKTA INC",
+            "previous_weight_pct": 2.03,
+            "current_weight_pct": 2.55,
+            "change_pp": 0.52
+          },
+          {
+            "security_code": "MU US",
+            "security_name": "MICRON TECHNOLOGY INC",
+            "previous_weight_pct": 2.91,
+            "current_weight_pct": 2.44,
+            "change_pp": -0.47
+          },
+          {
+            "security_code": "3081",
+            "security_name": "聯亞",
+            "previous_weight_pct": 0.83,
+            "current_weight_pct": 0.4,
+            "change_pp": -0.43
+          },
+          {
+            "security_code": "009150 KS",
+            "security_name": "Samsung Electro-Mechanics co(009150 ks)",
+            "previous_weight_pct": 4.79,
+            "current_weight_pct": 5.08,
+            "change_pp": 0.29
+          },
+          {
+            "security_code": "LITE US",
+            "security_name": "LUMENTUM HOLDINGS INC",
+            "previous_weight_pct": 7.44,
+            "current_weight_pct": 7.72,
+            "change_pp": 0.28
+          },
+          {
+            "security_code": "BE US",
+            "security_name": "BLOOM ENERGY CORP- A",
+            "previous_weight_pct": 6.51,
+            "current_weight_pct": 6.72,
+            "change_pp": 0.21
+          },
+          {
+            "security_code": "2454",
+            "security_name": "聯發科",
+            "previous_weight_pct": 3.6,
+            "current_weight_pct": 3.42,
+            "change_pp": -0.18
+          },
+          {
+            "security_code": "4180 JP",
+            "security_name": "APPIER GROUP INC",
+            "previous_weight_pct": 0.25,
+            "current_weight_pct": 0.1,
+            "change_pp": -0.15
+          },
+          {
+            "security_code": "TWLO US",
+            "security_name": "TWILIO INC - A",
+            "previous_weight_pct": 2.1,
+            "current_weight_pct": 1.96,
+            "change_pp": -0.14
+          },
+          {
+            "security_code": "2383",
+            "security_name": "台光電",
+            "previous_weight_pct": 2.61,
+            "current_weight_pct": 2.74,
+            "change_pp": 0.13
+          },
+          {
+            "security_code": "PANW US",
+            "security_name": "PALO ALTO NETWORKS INC",
+            "previous_weight_pct": 3.55,
+            "current_weight_pct": 3.67,
+            "change_pp": 0.12
+          },
+          {
+            "security_code": "3017",
+            "security_name": "奇鋐",
+            "previous_weight_pct": 3.35,
+            "current_weight_pct": 3.44,
+            "change_pp": 0.09
+          },
+          {
+            "security_code": "MRVL US",
+            "security_name": "MARVELL TECHNOLOGY INC",
+            "previous_weight_pct": 1.42,
+            "current_weight_pct": 1.5,
+            "change_pp": 0.08
+          },
+          {
+            "security_code": "3037",
+            "security_name": "欣興",
+            "previous_weight_pct": 6.32,
+            "current_weight_pct": 6.24,
+            "change_pp": -0.08
+          },
+          {
+            "security_code": "000660 KS",
+            "security_name": "SK HYNIX INC",
+            "previous_weight_pct": 1.99,
+            "current_weight_pct": 1.92,
+            "change_pp": -0.07
+          },
+          {
+            "security_code": "TER US",
+            "security_name": "TERADYNE INC",
+            "previous_weight_pct": 1.81,
+            "current_weight_pct": 1.75,
+            "change_pp": -0.06
+          },
+          {
+            "security_code": "AMD US",
+            "security_name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+            "previous_weight_pct": 1.84,
+            "current_weight_pct": 1.89,
+            "change_pp": 0.05
+          },
+          {
+            "security_code": "PLTR US",
+            "security_name": "PALANTIR TECHNOLOGIES INC-A",
+            "previous_weight_pct": 3.03,
+            "current_weight_pct": 3.08,
+            "change_pp": 0.05
+          },
+          {
+            "security_code": "HOOD US",
+            "security_name": "ROBINHOOD MARKETS INC - A",
+            "previous_weight_pct": 2.66,
+            "current_weight_pct": 2.61,
+            "change_pp": -0.05
+          },
+          {
+            "security_code": "CRWD US",
+            "security_name": "CROWDSTRIKE HOLDINGS INC - A",
+            "previous_weight_pct": 2.08,
+            "current_weight_pct": 2.12,
+            "change_pp": 0.04
+          },
+          {
+            "security_code": "5801 JP",
+            "security_name": "FURUKAWA ELECTRIC CO LTD",
+            "previous_weight_pct": 1.29,
+            "current_weight_pct": 1.32,
+            "change_pp": 0.03
+          },
+          {
+            "security_code": "IFX GY",
+            "security_name": "INFINEON TECHNOLOGIES AG",
+            "previous_weight_pct": 1.24,
+            "current_weight_pct": 1.27,
+            "change_pp": 0.03
+          },
+          {
+            "security_code": "6981 JP",
+            "security_name": "MURATA MANUFACTURING CO LTD",
+            "previous_weight_pct": 4.36,
+            "current_weight_pct": 4.39,
+            "change_pp": 0.03
+          },
+          {
+            "security_code": "NOW US",
+            "security_name": "SERVICENOW INC",
+            "previous_weight_pct": 1.82,
+            "current_weight_pct": 1.85,
+            "change_pp": 0.03
+          },
+          {
+            "security_code": "SPCX US",
+            "security_name": "SPACE EXPLORATION TECHN-CL A",
+            "previous_weight_pct": 5.48,
+            "current_weight_pct": 5.51,
+            "change_pp": 0.03
+          },
+          {
+            "security_code": "NET US",
+            "security_name": "CLOUDFLARE INC - CLASS A",
+            "previous_weight_pct": 1.72,
+            "current_weight_pct": 1.7,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "992 HK",
+            "security_name": "LENOVO GROUP LTD",
+            "previous_weight_pct": 1.6,
+            "current_weight_pct": 1.58,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "SNDK US",
+            "security_name": "SANDISK CORP",
+            "previous_weight_pct": 0.5,
+            "current_weight_pct": 0.48,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "COIN US",
+            "security_name": "COINBASE GLOBAL INC -CLASS A",
+            "previous_weight_pct": 0.77,
+            "current_weight_pct": 0.76,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "IREN US",
+            "security_name": "IREN LTD",
+            "previous_weight_pct": 0.77,
+            "current_weight_pct": 0.78,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "SNOW US",
+            "security_name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
+            "previous_weight_pct": 1.97,
+            "current_weight_pct": 1.96,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "2330",
+            "security_name": "台積電",
+            "previous_weight_pct": 0.94,
+            "current_weight_pct": 0.95,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "2308",
+            "security_name": "台達電",
+            "previous_weight_pct": 0.37,
+            "current_weight_pct": 0.38,
+            "change_pp": 0.01
+          }
+        ],
+        "summary": {
+          "added": 2,
+          "removed": 1,
+          "changed": 36
+        }
+      }
+    },
+    {
+      "etf_code": "00998A",
+      "etf_name": "主動復華金融股息",
+      "source_date": "2026-10-06",
+      "source_freshness": "stale",
+      "count": 54,
+      "total_weight_pct": 95.68,
+      "source": "CMoney台股ETF",
+      "fetched_at": "2026-10-07T12:29:10.168188+00:00",
+      "disclosure_scope": "complete_stock_holdings_reported_by_source",
+      "price": {
+        "etf_code": "00998A",
+        "etf_name": "主動復華金融股息",
+        "trade_date": "2026-10-07",
+        "open_price": 16.48,
+        "high_price": 16.9,
+        "low_price": 16.46,
+        "close_price": 16.77,
+        "previous_close": 16.29,
+        "source_timestamp": "2026-10-07T06:30:00+00:00",
+        "source": "臺灣證券交易所基本市況報導網站",
+        "source_url": "https://mis.twse.com.tw/stock/api/getStockInfo.jsp",
+        "fetched_at": "2026-10-07T12:29:13.497029+00:00",
+        "change": 0.48
+      },
+      "previous_published_source_date": "2026-10-05",
+      "source_advanced": true,
+      "comparison": {
+        "etf_code": "00998A",
+        "etf_name": "主動復華金融股息",
+        "from_source_date": "2026-10-05",
+        "to_source_date": "2026-10-06",
+        "added": [],
+        "removed": [],
+        "changed": [
+          {
+            "security_code": "8308 JP",
+            "security_name": "Resona控股公司",
+            "previous_weight_pct": 1.29,
+            "current_weight_pct": 1.85,
+            "change_pp": 0.56
+          },
+          {
+            "security_code": "8411 JP",
+            "security_name": "瑞穗金融集團",
+            "previous_weight_pct": 2.5,
+            "current_weight_pct": 2.98,
+            "change_pp": 0.48
+          },
+          {
+            "security_code": "TPEIR GA",
+            "security_name": "Piraeus Bank SA",
+            "previous_weight_pct": 3.08,
+            "current_weight_pct": 3.17,
+            "change_pp": 0.09
+          },
+          {
+            "security_code": "CHYM US",
+            "security_name": "Chime Financial Inc",
+            "previous_weight_pct": 1.45,
+            "current_weight_pct": 1.39,
+            "change_pp": -0.06
+          },
+          {
+            "security_code": "ABN NA",
+            "security_name": "荷蘭銀行公眾有限公司",
+            "previous_weight_pct": 4.59,
+            "current_weight_pct": 4.53,
+            "change_pp": -0.06
+          },
+          {
+            "security_code": "MRX US",
+            "security_name": "馬雷克斯集團有限公司",
+            "previous_weight_pct": 2.14,
+            "current_weight_pct": 2.08,
+            "change_pp": -0.06
+          },
+          {
+            "security_code": "055550 KS",
+            "security_name": "新韓金融集團",
+            "previous_weight_pct": 1.78,
+            "current_weight_pct": 1.73,
+            "change_pp": -0.05
+          },
+          {
+            "security_code": "HOOD US",
+            "security_name": "羅賓漢市場公司",
+            "previous_weight_pct": 1.56,
+            "current_weight_pct": 1.51,
+            "change_pp": -0.05
+          },
+          {
+            "security_code": "MNG LN",
+            "security_name": "M&G公開有限公司",
+            "previous_weight_pct": 2.36,
+            "current_weight_pct": 2.32,
+            "change_pp": -0.04
+          },
+          {
+            "security_code": "BAMI IM",
+            "security_name": "BPM銀行股份公司",
+            "previous_weight_pct": 1.95,
+            "current_weight_pct": 1.92,
+            "change_pp": -0.03
+          },
+          {
+            "security_code": "NWG LN",
+            "security_name": "國民西敏集團公開有限公司",
+            "previous_weight_pct": 2.7,
+            "current_weight_pct": 2.67,
+            "change_pp": -0.03
+          },
+          {
+            "security_code": "ETE GA",
+            "security_name": "希臘國家銀行",
+            "previous_weight_pct": 1.29,
+            "current_weight_pct": 1.32,
+            "change_pp": 0.03
+          },
+          {
+            "security_code": "JPM US",
+            "security_name": "摩根大通銀行",
+            "previous_weight_pct": 1.51,
+            "current_weight_pct": 1.48,
+            "change_pp": -0.03
+          },
+          {
+            "security_code": "STAN LN",
+            "security_name": "渣打集團有限公司",
+            "previous_weight_pct": 2.03,
+            "current_weight_pct": 2.0,
+            "change_pp": -0.03
+          },
+          {
+            "security_code": "AGN NA",
+            "security_name": "荷蘭保險公司",
+            "previous_weight_pct": 3.3,
+            "current_weight_pct": 3.27,
+            "change_pp": -0.03
+          },
+          {
+            "security_code": "7167 JP",
+            "security_name": "Mebuki金融集團公司",
+            "previous_weight_pct": 1.82,
+            "current_weight_pct": 1.84,
+            "change_pp": 0.02
+          },
+          {
+            "security_code": "UNI IM",
+            "security_name": "Unipol保險股份公司",
+            "previous_weight_pct": 1.03,
+            "current_weight_pct": 1.01,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "EQH US",
+            "security_name": "公平控股公司",
+            "previous_weight_pct": 2.0,
+            "current_weight_pct": 1.98,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "V US",
+            "security_name": "威士卡",
+            "previous_weight_pct": 2.1,
+            "current_weight_pct": 2.08,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "WFC US",
+            "security_name": "富國銀行",
+            "previous_weight_pct": 0.7,
+            "current_weight_pct": 0.68,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "DBK GY",
+            "security_name": "德意志銀行",
+            "previous_weight_pct": 2.59,
+            "current_weight_pct": 2.57,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "BNP FP",
+            "security_name": "法國巴黎銀行股份有限公司",
+            "previous_weight_pct": 1.42,
+            "current_weight_pct": 1.44,
+            "change_pp": 0.02
+          },
+          {
+            "security_code": "GPN US",
+            "security_name": "環匯公司",
+            "previous_weight_pct": 0.94,
+            "current_weight_pct": 0.92,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "BNY US",
+            "security_name": "紐約梅隆銀行",
+            "previous_weight_pct": 0.74,
+            "current_weight_pct": 0.72,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "BMPS IM",
+            "security_name": "義大利西恩那銀行股份公司",
+            "previous_weight_pct": 1.81,
+            "current_weight_pct": 1.83,
+            "change_pp": 0.02
+          },
+          {
+            "security_code": "C US",
+            "security_name": "花旗集團公司",
+            "previous_weight_pct": 1.24,
+            "current_weight_pct": 1.22,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "INGA NA",
+            "security_name": "荷蘭國際集團",
+            "previous_weight_pct": 1.78,
+            "current_weight_pct": 1.76,
+            "change_pp": -0.02
+          },
+          {
+            "security_code": "ASRNL NA",
+            "security_name": "ASR荷蘭公眾有限公司",
+            "previous_weight_pct": 2.07,
+            "current_weight_pct": 2.06,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "ADM LN",
+            "security_name": "Admiral集團公開有限公司",
+            "previous_weight_pct": 2.42,
+            "current_weight_pct": 2.43,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "8725 JP",
+            "security_name": "MS&AD保險集團控股公司",
+            "previous_weight_pct": 0.49,
+            "current_weight_pct": 0.48,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "8377 JP",
+            "security_name": "北北金融集團公司",
+            "previous_weight_pct": 0.78,
+            "current_weight_pct": 0.79,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "HSBA LN",
+            "security_name": "匯豐控股有限公司",
+            "previous_weight_pct": 1.21,
+            "current_weight_pct": 1.2,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "8331 JP",
+            "security_name": "千葉銀行有限公司",
+            "previous_weight_pct": 1.27,
+            "current_weight_pct": 1.28,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "DB1 GY",
+            "security_name": "德意志證交所",
+            "previous_weight_pct": 1.48,
+            "current_weight_pct": 1.49,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "G IM",
+            "security_name": "忠意保險股份公司",
+            "previous_weight_pct": 1.07,
+            "current_weight_pct": 1.06,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "SDLF LN",
+            "security_name": "標準人壽公開有限公司",
+            "previous_weight_pct": 4.25,
+            "current_weight_pct": 4.24,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "LGEN LN",
+            "security_name": "法通保險集團公開有限公司",
+            "previous_weight_pct": 1.52,
+            "current_weight_pct": 1.51,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "ENX FP",
+            "security_name": "泛歐交易所",
+            "previous_weight_pct": 2.06,
+            "current_weight_pct": 2.07,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "UBS US",
+            "security_name": "瑞銀集團公司",
+            "previous_weight_pct": 0.96,
+            "current_weight_pct": 0.95,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "OCBC SP",
+            "security_name": "華僑銀行有限公司",
+            "previous_weight_pct": 1.01,
+            "current_weight_pct": 1.0,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "UCG IM",
+            "security_name": "裕信銀行",
+            "previous_weight_pct": 2.34,
+            "current_weight_pct": 2.35,
+            "change_pp": 0.01
+          },
+          {
+            "security_code": "BLK US",
+            "security_name": "貝萊德公司",
+            "previous_weight_pct": 1.82,
+            "current_weight_pct": 1.81,
+            "change_pp": -0.01
+          },
+          {
+            "security_code": "105560 KS",
+            "security_name": "韓國國民銀行金融集團公司",
+            "previous_weight_pct": 0.99,
+            "current_weight_pct": 0.98,
+            "change_pp": -0.01
+          }
+        ],
+        "summary": {
+          "added": 0,
+          "removed": 0,
+          "changed": 43
+        }
+      }
+    }
+  ],
+  "planned_etfs": [
+    {
+      "etf_code": "00412A",
+      "etf_name": "主動安聯亞半導體",
+      "market": "tse",
+      "active_from": "2026-10-13",
+      "status": "待掛牌"
+    }
+  ],
+  "content_hash": "3ad120569baa4e92cce43ebefb89a98200bdd2a72e158d242292d36282e91534"
+}
