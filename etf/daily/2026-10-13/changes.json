@@ -2,7 +2,7 @@
   "schema_version": 3,
   "report_date": "2026-10-13",
   "timezone": "Asia/Taipei",
-  "generated_at": "2026-10-13T11:42:04.160738+00:00",
+  "generated_at": "2026-10-13T14:46:08.563606+00:00",
   "price_trade_date": "2026-10-13",
   "source_dates": {
     "0050": "2026-10-13",
@@ -11,7 +11,8 @@
     "00981A": "2026-10-13",
     "00988A": "2026-10-12",
     "00998A": "2026-10-12",
-    "00412A": "2026-10-12"
+    "00412A": "2026-10-12",
+    "33YTW": "2026-09-30"
   },
   "etfs": [
     {
@@ -1942,8 +1943,105 @@
           "changed": 0
         }
       }
+    },
+    {
+      "etf_code": "33YTW",
+      "etf_name": "統一全球新科技基金（新台幣）",
+      "source_date": "2026-09-30",
+      "source_freshness": "stale",
+      "count": 10,
+      "total_weight_pct": 48.1,
+      "source": "統一投信",
+      "fetched_at": "2026-10-13T14:46:08.563606+00:00",
+      "disclosure_scope": "top_holdings_reported_by_source",
+      "price": {
+        "etf_code": "33YTW",
+        "etf_name": "統一全球新科技基金（新台幣）",
+        "price_kind": "nav",
+        "currency": "TWD",
+        "nav_date": "2026-10-12",
+        "previous_nav_date": "2026-10-08",
+        "trade_date": "2026-10-12",
+        "close_price": 115.29,
+        "previous_close": 116.08,
+        "open_price": null,
+        "high_price": null,
+        "low_price": null,
+        "source_timestamp": null,
+        "change": -0.79,
+        "source": "統一投信",
+        "source_url": "https://www.ezmoney.com.tw/funds/value/72",
+        "fetched_at": "2026-10-13T14:46:08.563606+00:00"
+      },
+      "previous_published_source_date": null,
+      "source_advanced": true,
+      "comparison": {
+        "etf_code": "33YTW",
+        "etf_name": "統一全球新科技基金（新台幣）",
+        "from_source_date": null,
+        "to_source_date": "2026-09-30",
+        "added": [
+          {
+            "security_code": null,
+            "security_name": "BLOOM ENERGY CORP- A",
+            "current_weight_pct": 6.44
+          },
+          {
+            "security_code": null,
+            "security_name": "ADVANCED MICRO DEVICES.amd us",
+            "current_weight_pct": 5.8
+          },
+          {
+            "security_code": null,
+            "security_name": "SPACE EXPLORATION TECHN-CL A",
+            "current_weight_pct": 5.61
+          },
+          {
+            "security_code": null,
+            "security_name": "高力",
+            "current_weight_pct": 5.34
+          },
+          {
+            "security_code": null,
+            "security_name": "NVIDIA CORP",
+            "current_weight_pct": 5.21
+          },
+          {
+            "security_code": null,
+            "security_name": "PALANTIR TECHNOLOGIES INC-A",
+            "current_weight_pct": 4.3
+          },
+          {
+            "security_code": null,
+            "security_name": "MICRON TECHNOLOGY INC",
+            "current_weight_pct": 3.97
+          },
+          {
+            "security_code": null,
+            "security_name": "CROWDSTRIKE HOLDINGS INC - A",
+            "current_weight_pct": 3.94
+          },
+          {
+            "security_code": null,
+            "security_name": "LUMENTUM HOLDINGS INC",
+            "current_weight_pct": 3.81
+          },
+          {
+            "security_code": null,
+            "security_name": "CLOUDFLARE INC - CLASS A",
+            "current_weight_pct": 3.68
+          }
+        ],
+        "removed": [],
+        "changed": [],
+        "summary": {
+          "added": 10,
+          "removed": 0,
+          "changed": 0
+        }
+      }
     }
   ],
   "planned_etfs": [],
-  "content_hash": "fe3fb9613e7cb816687ce240841b2231a6769f6ec649b70ae6c1515a6acd2c7f"
+  "content_hash": "dd1333652a04ce74be84654e6ac2924d845a2c0ef201cdaebc69ae9546ff8c7b"
 }

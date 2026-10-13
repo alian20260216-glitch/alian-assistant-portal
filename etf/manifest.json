@@ -2,7 +2,7 @@
   "schema_version": 3,
   "latest_report_date": "2026-10-13",
   "timezone": "Asia/Taipei",
-  "generated_at": "2026-10-13T11:42:04.160738+00:00",
+  "generated_at": "2026-10-13T14:46:08.563606+00:00",
   "price_trade_date": "2026-10-13",
   "source_dates": {
     "0050": "2026-10-13",
@@ -11,10 +11,11 @@
     "00981A": "2026-10-13",
     "00988A": "2026-10-12",
     "00998A": "2026-10-12",
-    "00412A": "2026-10-12"
+    "00412A": "2026-10-12",
+    "33YTW": "2026-09-30"
   },
   "planned_etfs": [],
-  "content_hash": "fe3fb9613e7cb816687ce240841b2231a6769f6ec649b70ae6c1515a6acd2c7f",
+  "content_hash": "dd1333652a04ce74be84654e6ac2924d845a2c0ef201cdaebc69ae9546ff8c7b",
   "archive_dates": [
     "2026-10-13",
     "2026-10-12",

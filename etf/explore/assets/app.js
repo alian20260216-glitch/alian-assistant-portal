@@ -18,12 +18,14 @@ function setStatus(message, error = false) {
 function renderCards() {
   const activeCards = state.dashboard.etfs.map((etf) => {
     const change = Number(etf.price.change);
+    const isNav = etf.price.price_kind === 'nav';
     const changeClass = change > 0 ? 'positive' : change < 0 ? 'negative' : 'neutral';
     const active = etf.etf_code === state.selectedCode ? ' active' : '';
     return `<button class="etf-card${active}" data-code="${escapeHtml(etf.etf_code)}">
       <span>${escapeHtml(etf.etf_name)}</span>
       <strong>${escapeHtml(etf.etf_code)}</strong>
-      <small>${fmt(etf.price.close_price)} TWD</small>
+      <small>${isNav ? '基金淨值 ' : ''}${fmt(etf.price.close_price)} TWD</small>
+      ${isNav ? `<span class="freshness">淨值日期 ${escapeHtml(etf.price.nav_date)}</span>` : ''}
       <span class="change ${changeClass}">${signed(change)}</span>
       <span class="freshness">持股 ${escapeHtml(etf.source_date)} · ${etf.count} 檔</span>
     </button>`;
@@ -86,7 +88,7 @@ function renderDetail() {
   $('#added-count').textContent = changes.summary.added;
   $('#removed-count').textContent = changes.summary.removed;
   $('#changed-count').textContent = changes.summary.changed;
-  $('#source-note').textContent = `資料來源：${holdings.source} ｜ 擷取時間：${holdings.fetched_at}（UTC）${holdings.disclosure_scope.startsWith('top_') ? ' ｜ 此來源只揭露公開前十大持股' : ''}`;
+  $('#source-note').textContent = `資料來源：${holdings.source} ｜ 擷取時間：${holdings.fetched_at}（UTC）${holdings.disclosure_scope.startsWith('top_') ? ' ｜ 此來源只揭露公開前十大持股；持股日期不代表每日更新' : ''}`;
   renderTable();
 }
 
